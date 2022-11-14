@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+      font-size: 30px;
+      font-family:'Times New Roman', Times, serif;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  
+  p {
+      padding: 20px 5px 0px 5px;
+      font-family:'Times New Roman', Times, serif;
+      font-size: 20px;
+      position: relative;
+  }
+  
+  .section { 
+      background-color: rgb(150, 150, 150);
+         border: 2px solid black;
+         margin-top: 20px; 
+         margin-right: 20px; 
+         padding: 3px;
+         text-align: justify;
+         position: relative;
+   }
+  
+  span {
+      font-size: 22px;
+      width: 120px;
+      border: 1px solid black;
+      font-weight: bolder;
+      text-align: center;
+      float: right; top :0; right: 0; margin: 0;
+      position: absolute;
+  }
+  
+  #m1 {
+      background-color: #F5B7B1;
+      
+  }
+  #m2 {
+      background-color: #E74C3C;
+  }
+  
+  #m3 {
+      background-color: #F9E79F;
+      
+  }
+  
+  
+  .container {
+      width: 100%;
+  }
+  
+  /* --------- Desktop Version ---------  */
+  
+  @media (min-width: 992px) {
+  
+    .col-lg-4 {
+      width: 33.33%;
+      float: left;
+      }
+  }
+  
+  /* --------- Tablet Version ---------  */
+
+  @media (min-width: 768px) and (max-width: 991px) {
+  
+    .col-md-6 {
+      width: 50%;
+      float: left;
+    }
+    .col-md-12 {
+      width: 100%;
+      float: left;
+    }
+  }
+  /* --------- Mobile Version ---------  */
+
+  @media (max-width: 767px)  {
+  
+    .col-sx-12 {
+        float: left;
+      width: 100%;
+    }
+  }
